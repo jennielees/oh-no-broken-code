@@ -19,6 +19,7 @@ ending = 'th'
 
 if todays_day < 10 or todays_day > 20:
     # x % y (mod) will give the remainder when x is divided by y
+    # -- but x needs to be an integer!
     number = todays_day % 10
     # look up number in number_endings
     # and if you find it as a key, put the value in ending
@@ -27,7 +28,7 @@ if todays_day < 10 or todays_day > 20:
 # make this print ending, not 'th'
 print "Today is the {}th".format(todays_day)
 
-birthday = raw_input("What day of the month is your birthday?")
+birthday = int(raw_input("What day of the month is your birthday?"))
 
 # make this print the birthday, and the right ending
 print "Your birthday is on the {}th!".format(todays_day)
