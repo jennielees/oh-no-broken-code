@@ -4,10 +4,12 @@ This repository has a few files that need a bit of love. Can you fix the errors 
 
 Difficulty Order:
 
-* `icecream.py`
-* `birthday.py`
-* `halloween.py`
-* `vacation.py`
+* `icecream.py` (lists)
+* `birthday.py` (dictionaries, if)
+* `keyboard.py` (indentation)
+* `github.py` (finding a key in a json file)
+* `halloween.py` (random, lists, input, if)
+* `vacation.py` (functions, returns, dictionaries)
 
 ### Getting Started
 
